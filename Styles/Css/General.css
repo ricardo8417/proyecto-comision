@@ -568,6 +568,24 @@ form legend {
         top: 0px;
         left: 0px;
     }
+    /*footer*/
+    footer {
+        margin-top: 80px;
+        border: 1px solid black;
+        background: black;
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 17px;
+        border-radius: 10px;
+    }
+    footer p {
+        font-size: 18px;
+    }
+    footer img {
+        width: 30px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -615,6 +633,24 @@ form legend {
         top: 0px;
         left: 0px;
     }
+    /*footer*/
+    footer {
+        margin-top: 80px;
+        border: 1px solid black;
+        background: black;
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 17px;
+        border-radius: 10px;
+    }
+    footer p {
+        font-size: 18px;
+    }
+    footer img {
+        width: 30px;
+    }
 }
 
 @media (max-width: 990px) {
@@ -660,5 +696,23 @@ form legend {
         width: 100%;
         top: 0px;
         left: 0px;
+    }
+    /*footer*/
+    footer {
+        margin-top: 80px;
+        border: 1px solid black;
+        background: black;
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 17px;
+        border-radius: 10px;
+    }
+    footer p {
+        font-size: 18px;
+    }
+    footer img {
+        width: 30px;
     }
 }
