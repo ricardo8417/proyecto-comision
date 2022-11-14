@@ -596,6 +596,45 @@ form legend {
         width: 10%;
         height: auto;
     }
+    /*Modulo Quienes Somos*/
+    .contenido-mision,
+    .contenido-vision,
+    .contenido-objetivogeneral,
+    .contenido-valores {
+        margin-top: 10%;
+        display: inline-block;
+    }
+    .contenido-mision .Mision,
+    .contenido-vision .vision,
+    .contenido-objetivogeneral .objetivo-general,
+    .contenido-valores .valores {
+        margin: 10% 0 0 0;
+        padding: 0 5% 0 5%;
+        text-align: justify;
+        color: white;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .contenido-mision .Mision h1,
+    .contenido-vision .vision h2,
+    .contenido-objetivogeneral .objetivo-general h2,
+    .contenido-valores .valores h2 {
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .contenido-mision .image-mision img,
+    .contenido-vision .image-vision img,
+    .contenido-objetivogeneral .image-objgeneral img,
+    .contenido-valores .image-valores img {
+        width: 100%;
+        margin: 10% 0 0 0;
+        padding: 0 5% 0 5%;
+    }
+    .contenido-valores .valores ol {
+        text-align: center;
+        list-style: square inside;
+        padding: 0 5% 0 5%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -671,6 +710,45 @@ form legend {
         width: 10%;
         height: auto;
     }
+    /*Modulo Quienes Somos*/
+    .contenido-mision,
+    .contenido-vision,
+    .contenido-objetivogeneral,
+    .contenido-valores {
+        margin-top: 10%;
+        display: inline-block;
+    }
+    .contenido-mision .Mision,
+    .contenido-vision .vision,
+    .contenido-objetivogeneral .objetivo-general,
+    .contenido-valores .valores {
+        margin: 10% 0 0 0;
+        padding: 0 5% 0 5%;
+        text-align: justify;
+        color: white;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .contenido-mision .Mision h1,
+    .contenido-vision .vision h2,
+    .contenido-objetivogeneral .objetivo-general h2,
+    .contenido-valores .valores h2 {
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .contenido-mision .image-mision img,
+    .contenido-vision .image-vision img,
+    .contenido-objetivogeneral .image-objgeneral img,
+    .contenido-valores .image-valores img {
+        width: 100%;
+        margin: 10% 0 0 0;
+        padding: 0 5% 0 5%;
+    }
+    .contenido-valores .valores ol {
+        text-align: center;
+        list-style: square inside;
+        padding: 0 5% 0 5%;
+    }
 }
 
 @media (max-width: 990px) {
@@ -744,5 +822,44 @@ form legend {
     footer img {
         width: 10%;
         height: auto;
+    }
+    /*Modulo Quienes Somos*/
+    .contenido-mision,
+    .contenido-vision,
+    .contenido-objetivogeneral,
+    .contenido-valores {
+        margin-top: 10%;
+        display: inline-block;
+    }
+    .contenido-mision .Mision,
+    .contenido-vision .vision,
+    .contenido-objetivogeneral .objetivo-general,
+    .contenido-valores .valores {
+        margin: 10% 0 0 0;
+        padding: 0 5% 0 5%;
+        text-align: justify;
+        color: white;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .contenido-mision .Mision h1,
+    .contenido-vision .vision h2,
+    .contenido-objetivogeneral .objetivo-general h2,
+    .contenido-valores .valores h2 {
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .contenido-mision .image-mision img,
+    .contenido-vision .image-vision img,
+    .contenido-objetivogeneral .image-objgeneral img,
+    .contenido-valores .image-valores img {
+        width: 100%;
+        margin: 10% 0 0 0;
+        padding: 0 5% 0 5%;
+    }
+    .contenido-valores .valores ol {
+        text-align: center;
+        list-style: square inside;
+        padding: 0 5% 0 5%;
     }
 }
