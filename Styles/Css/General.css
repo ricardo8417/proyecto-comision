@@ -577,14 +577,15 @@ form legend {
         color: white;
         display: flex;
         justify-content: space-around;
-        padding: 10px 17px;
+        padding: 10% 17%;
         border-radius: 10px;
+        height: 10%;
     }
     footer p {
         font-size: 18px;
     }
     footer img {
-        width: 30px;
+        width: 20%;
     }
 }
 
@@ -649,7 +650,7 @@ form legend {
         font-size: 18px;
     }
     footer img {
-        width: 30px;
+        width: 20%;
     }
 }
 
