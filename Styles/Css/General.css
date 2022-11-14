@@ -524,6 +524,10 @@ form legend {
 
 @media (max-width: 576px) {
     /* max = hasta... */
+    body {
+        width: 100%;
+        margin: 2% 0 0 0;
+    }
     /*Imagen portada*/
     .portada img {
         display: none;
