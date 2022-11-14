@@ -524,10 +524,68 @@ form legend {
 
 @media (max-width: 576px) {
     /* max = hasta... */
+    /*Contenido*/
+    main .contenido .info {
+        width: 100%;
+        margin: 2% 10% 0 0;
+    }
+    main .contenido {
+        margin-bottom: 20%;
+        display: inline;
+    }
+    main .contenido .img-main {
+        width: 100%;
+    }
+    main .contenido .img-main img {
+        width: 100%;
+    }
+    .video .titulo-video {
+        width: 100%;
+    }
+    .video .titulo-video h2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+    .video .pelicula-video {
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 768px) {
     /* min = desde... */
+    /*Contenido*/
+    main .contenido .info {
+        width: 100%;
+        margin: 2% 10% 0 0;
+    }
+    main .contenido {
+        margin-bottom: 20%;
+        display: inline;
+    }
+    main .contenido .img-main {
+        width: 100%;
+    }
+    main .contenido .img-main img {
+        width: 100%;
+    }
+    .video .titulo-video {
+        width: 100%;
+    }
+    .video .titulo-video h2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+    .video .pelicula-video {
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 990px) {
@@ -545,5 +603,19 @@ form legend {
     }
     main .contenido .img-main img {
         width: 100%;
+    }
+    .video .titulo-video {
+        width: 100%;
+    }
+    .video .titulo-video h2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+    .video .pelicula-video {
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
     }
 }
