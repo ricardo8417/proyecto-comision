@@ -13,15 +13,15 @@ body {
 
 header {
     background: linear-gradient(#003366, #0080ff, #66b3ff);
-    height: 70px;
-    padding: 15px;
+    /* height: 70px;
+    padding: 15px; */
     border: 2px solid #003366, ;
-    z-index: 999;
-    width: 100%;
+    /* z-index: 999; */
+    /* width: 100%; */
     border-radius: 10px;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    position: sticky;
+    position: sticky; */
 }
 
 
@@ -37,7 +37,7 @@ header {
 
 /*Logo*/
 
-header .logo img {
+header .bg-menu .container .img-logo {
     width: 100px;
     margin-bottom: 5px;
     border-radius: 10px;
@@ -49,13 +49,31 @@ header .logo img {
 
 /*Menu*/
 
+header .bg-menu .container .menu ul li a {
+    color: white;
+}
+
+header .bg-menu .container .menu ul li a:hover {
+    color: blue;
+}
+
+header .bg-menu .container .menu ul li .bg-fondo {
+    background: linear-gradient(#003366, #0080ff, #66b3ff);
+}
+
+header .bg-menu .container .menu ul li .bg-fondo a:hover {
+    background: #ff9900;
+}
+
+
+/* 
 header .menu ul li {
     list-style: none;
     display: inline;
     position: relative;
 }
 
-header .menu ul li a {
+header .bg-menu .container .menu ul li a {
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -69,7 +87,7 @@ header .menu ul li a {
     border-radius: 10px;
 }
 
-header .menu ul li a:hover {
+header .bg-menu .container .menu ul li a:hover {
     color: blue;
     background: #80ff80;
 }
@@ -77,21 +95,21 @@ header .menu ul li a:hover {
 
 /*Sub menu*/
 
-header .menu ul li ul {
-    display: none;
+
+/* header .bg-menu .container .menu ul li ul {
     position: absolute;
     top: 30px;
     left: 0;
 }
 
-header .menu ul li:hover ul {
+header .bg-menu .container .menu ul li:hover ul {
     display: block;
 }
 
 header .menu ul li ul a {
     font-size: 18px;
     text-align: left;
-}
+} */
 
 
 /*main*/
@@ -101,13 +119,13 @@ main {
 }
 
 main .contenido {
+    margin-bottom: 20%;
     display: flex;
-    align-items: stretch;
 }
 
 main .contenido .info {
     width: 50%;
-    margin: 4% 10% 0 0;
+    margin: 2% 10% 0 0;
 }
 
 main .contenido .info h1 {
@@ -134,6 +152,8 @@ main .contenido .img-main img {
 
 /*Carrusel*/
 
+
+/* 
 #slider {
     margin-top: 200px;
 }
@@ -142,51 +162,22 @@ main .contenido .img-main img {
     color: white;
     text-align: center;
     font-size: 20px;
-    font-weight: bold;
-}
+    font-weight: bold; */
+
+
+/* 
+} */
 
 
 /*Card*/
 
-.card {
-    margin-top: 250px;
-}
-
-.card h2 {
-    margin-bottom: 150px;
-    text-align: center;
+.container .titulo-servicio h2 {
     font-size: 30px;
     font-weight: bold;
     color: white;
-}
-
-.card .imagen-card {
-    display: inline-block;
-    border: 7px solid linear-gradient(#003366, #0080ff, #66b3ff);
-    margin: 0px 20px 25px 0px;
-    padding: 10px 17px;
     text-align: center;
-    border-radius: 10px;
-    background: linear-gradient(#003366, #0080ff, #66b3ff);
-}
-
-.card .imagen-card .img {
-    width: 500px;
-    height: 300px;
-}
-
-.card .imagen-card p {
-    text-align: center;
-    color: #003366;
-}
-
-.card .imagen-card a {
-    text-decoration: none;
-    color: blue;
-}
-
-.card .imagen-card a:hover {
-    color: red;
+    margin-bottom: 10%;
+    margin-top: 20%;
 }
 
 
@@ -526,4 +517,33 @@ form legend {
 #Contenido-productos .productos .productos7 {
     margin-bottom: 10%;
     border: 2px solid #A2C7E5;
+}
+
+
+/* Responsive */
+
+@media (max-width: 576px) {
+    /* max = hasta... */
+}
+
+@media (min-width: 768px) {
+    /* min = desde... */
+}
+
+@media (max-width: 990px) {
+    /*Contenido*/
+    main .contenido .info {
+        width: 100%;
+        margin: 2% 10% 0 0;
+    }
+    main .contenido {
+        margin-bottom: 20%;
+        display: inline;
+    }
+    main .contenido .img-main {
+        width: 100%;
+    }
+    main .contenido .img-main img {
+        width: 100%;
+    }
 }
