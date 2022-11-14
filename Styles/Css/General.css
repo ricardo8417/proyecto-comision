@@ -544,19 +544,29 @@ form legend {
         width: 100%;
         max-width: 640px;
     }
+    /*Video youtube*/
     .video .titulo-video {
         width: 100%;
     }
     .video .titulo-video h2 {
-        font-size: 30px;
+        font-size: 12px;
         font-weight: bold;
         color: white;
         text-align: center;
     }
     .video .pelicula-video {
-        margin-top: 10%;
-        display: flex;
-        justify-content: center;
+        height: 0px;
+        width: 100%;
+        padding-top: 56.25%;
+        /* Relación: 16/9 = 56.25% */
+        position: relative;
+    }
+    .video .pelicula-video iframe {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        left: 0px;
     }
 }
 
@@ -586,15 +596,24 @@ form legend {
         width: 100%;
     }
     .video .titulo-video h2 {
-        font-size: 30px;
+        font-size: 18px;
         font-weight: bold;
         color: white;
         text-align: center;
     }
     .video .pelicula-video {
-        margin-top: 10%;
-        display: flex;
-        justify-content: center;
+        height: 0px;
+        width: 100%;
+        padding-top: 56.25%;
+        /* Relación: 16/9 = 56.25% */
+        position: relative;
+    }
+    .video .pelicula-video iframe {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        left: 0px;
     }
 }
 
@@ -623,14 +642,23 @@ form legend {
         width: 100%;
     }
     .video .titulo-video h2 {
-        font-size: 30px;
+        font-size: 24px;
         font-weight: bold;
         color: white;
         text-align: center;
     }
     .video .pelicula-video {
-        margin-top: 10%;
-        display: flex;
-        justify-content: center;
+        height: 0px;
+        width: 100%;
+        padding-top: 56.25%;
+        /* Relación: 16/9 = 56.25% */
+        position: relative;
+    }
+    .video .pelicula-video iframe {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        left: 0px;
     }
 }
