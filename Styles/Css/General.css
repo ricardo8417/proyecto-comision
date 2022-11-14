@@ -524,6 +524,10 @@ form legend {
 
 @media (max-width: 576px) {
     /* max = hasta... */
+    /*Imagen portada*/
+    .portada img {
+        display: none;
+    }
     /*Contenido*/
     main .contenido .info {
         width: 100%;
@@ -538,6 +542,7 @@ form legend {
     }
     main .contenido .img-main img {
         width: 100%;
+        max-width: 640px;
     }
     .video .titulo-video {
         width: 100%;
@@ -555,8 +560,12 @@ form legend {
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     /* min = desde... */
+    /*Imagen portada*/
+    .portada img {
+        display: none;
+    }
     /*Contenido*/
     main .contenido .info {
         width: 100%;
@@ -571,6 +580,7 @@ form legend {
     }
     main .contenido .img-main img {
         width: 100%;
+        max-width: 640px;
     }
     .video .titulo-video {
         width: 100%;
@@ -589,6 +599,10 @@ form legend {
 }
 
 @media (max-width: 990px) {
+    /*Imagen portada*/
+    .portada img {
+        display: none;
+    }
     /*Contenido*/
     main .contenido .info {
         width: 100%;
@@ -603,6 +617,7 @@ form legend {
     }
     main .contenido .img-main img {
         width: 100%;
+        max-width: 640px;
     }
     .video .titulo-video {
         width: 100%;
