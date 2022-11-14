@@ -547,6 +547,7 @@ form legend {
     /*Video youtube*/
     .video .titulo-video {
         width: 100%;
+        align-items: center;
     }
     .video .titulo-video h2 {
         font-size: 12px;
@@ -613,6 +614,7 @@ form legend {
     }
     .video .titulo-video {
         width: 100%;
+        text-align: center;
     }
     .video .titulo-video h2 {
         font-size: 18px;
@@ -677,7 +679,8 @@ form legend {
         max-width: 640px;
     }
     .video .titulo-video {
-        width: 50%;
+        width: 100%;
+        text-align: center;
     }
     .video .titulo-video h2 {
         font-size: 24px;
