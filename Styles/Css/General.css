@@ -575,17 +575,17 @@ form legend {
         background: black;
         width: 100%;
         color: white;
-        display: flex;
-        justify-content: space-around;
-        padding: 10% 17%;
+        display: inline-block;
+        padding: 5% 0%;
         border-radius: 10px;
-        height: 10%;
+        height: auto;
     }
     footer p {
         font-size: 18px;
     }
     footer img {
-        width: 20%;
+        width: 15%;
+        height: auto;
     }
 }
 
@@ -641,16 +641,17 @@ form legend {
         background: black;
         width: 100%;
         color: white;
-        display: flex;
-        justify-content: space-around;
+        display: inline-block;
         padding: 10px 17px;
         border-radius: 10px;
+        height: auto;
     }
     footer p {
         font-size: 18px;
     }
     footer img {
-        width: 20%;
+        width: 15%;
+        height: auto;
     }
 }
 
@@ -676,7 +677,7 @@ form legend {
         max-width: 640px;
     }
     .video .titulo-video {
-        width: 100%;
+        width: 50%;
     }
     .video .titulo-video h2 {
         font-size: 24px;
@@ -705,15 +706,16 @@ form legend {
         background: black;
         width: 100%;
         color: white;
-        display: flex;
-        justify-content: space-around;
+        display: inline-block;
         padding: 10px 17px;
         border-radius: 10px;
+        height: auto;
     }
     footer p {
         font-size: 18px;
     }
     footer img {
-        width: 30px;
+        width: 15%;
+        height: auto;
     }
 }
