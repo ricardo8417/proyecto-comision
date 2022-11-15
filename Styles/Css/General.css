@@ -602,7 +602,7 @@ form legend {
     .contenido-objetivogeneral,
     .contenido-valores {
         margin-top: 10%;
-        display: inline-block;
+        display: inline;
     }
     .contenido-mision .Mision,
     .contenido-vision .vision,
@@ -716,7 +716,7 @@ form legend {
     .contenido-objetivogeneral,
     .contenido-valores {
         margin-top: 10%;
-        display: inline-block;
+        display: inline;
     }
     .contenido-mision .Mision,
     .contenido-vision .vision,
@@ -829,7 +829,7 @@ form legend {
     .contenido-objetivogeneral,
     .contenido-valores {
         margin-top: 10%;
-        display: inline-block;
+        display: inline;
     }
     .contenido-mision .Mision,
     .contenido-vision .vision,
