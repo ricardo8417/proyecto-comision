@@ -673,11 +673,10 @@ form legend {
         flex-direction: column;
     }
     .contenido-vision .vision {
-        /* margin: 1% 0 0 8%; */
+        margin: 1% 0 0 8%;
         color: white;
         width: 80%;
         padding: 0 5% 0 5%;
-        margin: auto;
     }
     .contenido-vision .vision h2 {
         text-align: center;
@@ -703,11 +702,10 @@ form legend {
         flex-direction: column;
     }
     .contenido-objetivogeneral .objetivo-general {
-        /* margin: 3% 10% 0 0; */
+        margin: 3% 10% 0 0;
         color: white;
         width: 100%;
         padding: 0 5% 0 5%;
-        margin: auto;
     }
     .contenido-objetivogeneral .objetivo-general h2 {
         text-align: center;
@@ -743,11 +741,10 @@ form legend {
         margin: auto;
     }
     .contenido-valores .valores {
-        /* margin: 3% 0 0 10%; */
+        margin: 3% 0 0 10%;
         color: white;
         width: 100%;
         padding: 0 20% 0 5%;
-        margin: auto;
     }
     .contenido-valores .valores h2 {
         text-align: center;
@@ -878,11 +875,10 @@ form legend {
         margin: auto;
     }
     .contenido-vision .vision {
-        /* margin: 1% 0 0 8%; */
+        margin: 1% 0 0 8%;
         color: white;
         width: 80%;
         padding: 0 5% 0 5%;
-        margin: auto;
     }
     .contenido-vision .vision h2 {
         text-align: center;
@@ -912,7 +908,6 @@ form legend {
         color: white;
         width: 100%;
         padding: 0 5% 0 5%;
-        margin: auto;
     }
     .contenido-objetivogeneral .objetivo-general h2 {
         text-align: center;
@@ -948,11 +943,10 @@ form legend {
         margin: auto;
     }
     .contenido-valores .valores {
-        /* margin: 3% 0 0 10%; */
+        margin: 3% 0 0 10%;
         color: white;
         width: 100%;
         padding: 0 20% 0 5%;
-        margin: auto;
     }
     .contenido-valores .valores h2 {
         text-align: center;
@@ -1090,11 +1084,10 @@ form legend {
         flex-direction: column;
     }
     .contenido-vision .vision {
-        /* margin: 1% 0 0 8%; */
+        margin: 1% 0 0 8%;
         color: white;
         width: 80%;
         padding: 0 5% 0 5%;
-        margin: auto;
     }
     .contenido-vision .vision h2 {
         text-align: center;
@@ -1120,11 +1113,10 @@ form legend {
         flex-direction: column;
     }
     .contenido-objetivogeneral .objetivo-general {
-        /* margin: 3% 10% 0 0; */
+        margin: 3% 10% 0 0;
         color: white;
         width: 100%;
         padding: 0 5% 0 5%;
-        margin: auto;
     }
     .contenido-objetivogeneral .objetivo-general h2 {
         text-align: center;
@@ -1160,11 +1152,10 @@ form legend {
         margin: auto;
     }
     .contenido-valores .valores {
-        /* margin: 3% 0 0 10%; */
+        margin: 3% 0 0 10%;
         color: white;
         width: 100%;
         padding: 0 20% 0 5%;
-        margin: auto;
     }
     .contenido-valores .valores h2 {
         text-align: center;
