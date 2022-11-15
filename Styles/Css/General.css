@@ -115,12 +115,13 @@ header .menu ul li ul a {
 /*main*/
 
 main {
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 main .contenido {
-    margin-bottom: 20%;
+    margin: 10% 0 20% 0;
     display: flex;
+    flex-direction: row;
 }
 
 main .contenido .info {
@@ -575,7 +576,8 @@ form legend {
     }
     main .contenido {
         margin-bottom: 20%;
-        display: inline;
+        display: flex;
+        flex-direction: column;
     }
     main .contenido .img-main {
         width: 100%;
@@ -638,9 +640,10 @@ form legend {
         flex-direction: column;
     }
     .contenido-mision .Mision {
-        /* margin: 5% 10% 0 0; */
+        /* margin: 5% 0 0 0; */
         color: white;
-        width: 50%;
+        width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-mision .Mision h1 {
         text-align: center;
@@ -653,6 +656,7 @@ form legend {
     }
     .contenido-mision .image-mision {
         width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-mision .image-mision img {
         width: 100%;
@@ -664,9 +668,10 @@ form legend {
         flex-direction: column;
     }
     .contenido-vision .vision {
-        margin: 1% 0 0 8%;
+        /* margin: 1% 0 0 8%; */
         color: white;
-        width: 100%;
+        width: 80%;
+        padding: 0 5% 0 5%;
     }
     .contenido-vision .vision h2 {
         text-align: center;
@@ -679,6 +684,7 @@ form legend {
     }
     .contenido-vision .image-vision {
         width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-vision .image-vision img {
         width: 100%;
@@ -693,6 +699,7 @@ form legend {
         margin: 3% 10% 0 0;
         color: white;
         width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-objetivogeneral .objetivo-general h2 {
         text-align: center;
@@ -706,6 +713,7 @@ form legend {
     }
     .contenido-objetivogeneral .image-objgeneral {
         width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-objetivogeneral .image-objgeneral img {
         width: 100%;
@@ -722,11 +730,13 @@ form legend {
     }
     .contenido-valores .image-valores {
         width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-valores .valores {
         margin: 3% 0 0 10%;
         color: white;
         width: 100%;
+        padding: 0 20% 0 5%;
     }
     .contenido-valores .valores h2 {
         text-align: center;
@@ -758,7 +768,8 @@ form legend {
     }
     main .contenido {
         margin-bottom: 20%;
-        display: inline;
+        display: flex;
+        flex-direction: column;
     }
     main .contenido .img-main {
         width: 100%;
@@ -813,16 +824,17 @@ form legend {
         width: 10%;
         height: auto;
     }
-    /*Modulo Quienes Somos*/
+    /*Modulo quienes somos*/
     /*Mision*/
     .contenido-mision {
         display: flex;
         flex-direction: column;
     }
     .contenido-mision .Mision {
-        /* margin: 5% 10% 0 0; */
+        /* margin: 5% 0 0 0; */
         color: white;
-        width: 50%;
+        width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-mision .Mision h1 {
         text-align: center;
@@ -835,6 +847,7 @@ form legend {
     }
     .contenido-mision .image-mision {
         width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-mision .image-mision img {
         width: 100%;
@@ -846,9 +859,10 @@ form legend {
         flex-direction: column;
     }
     .contenido-vision .vision {
-        margin: 1% 0 0 8%;
+        /* margin: 1% 0 0 8%; */
         color: white;
-        width: 100%;
+        width: 80%;
+        padding: 0 5% 0 5%;
     }
     .contenido-vision .vision h2 {
         text-align: center;
@@ -861,6 +875,7 @@ form legend {
     }
     .contenido-vision .image-vision {
         width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-vision .image-vision img {
         width: 100%;
@@ -875,6 +890,7 @@ form legend {
         margin: 3% 10% 0 0;
         color: white;
         width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-objetivogeneral .objetivo-general h2 {
         text-align: center;
@@ -888,6 +904,7 @@ form legend {
     }
     .contenido-objetivogeneral .image-objgeneral {
         width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-objetivogeneral .image-objgeneral img {
         width: 100%;
@@ -904,11 +921,13 @@ form legend {
     }
     .contenido-valores .image-valores {
         width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-valores .valores {
         margin: 3% 0 0 10%;
         color: white;
         width: 100%;
+        padding: 0 20% 0 5%;
     }
     .contenido-valores .valores h2 {
         text-align: center;
@@ -945,7 +964,8 @@ form legend {
     }
     main .contenido {
         margin-bottom: 20%;
-        display: inline;
+        display: flex;
+        flex-direction: column;
     }
     main .contenido .img-main {
         width: 100%;
@@ -1041,7 +1061,7 @@ form legend {
         /* margin: 1% 0 0 8%; */
         color: white;
         width: 80%;
-        /* padding: 0 5% 0 5%; */
+        padding: 0 5% 0 5%;
     }
     .contenido-vision .vision h2 {
         text-align: center;
@@ -1054,6 +1074,7 @@ form legend {
     }
     .contenido-vision .image-vision {
         width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-vision .image-vision img {
         width: 100%;
@@ -1068,6 +1089,7 @@ form legend {
         margin: 3% 10% 0 0;
         color: white;
         width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-objetivogeneral .objetivo-general h2 {
         text-align: center;
@@ -1081,6 +1103,7 @@ form legend {
     }
     .contenido-objetivogeneral .image-objgeneral {
         width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-objetivogeneral .image-objgeneral img {
         width: 100%;
@@ -1097,11 +1120,13 @@ form legend {
     }
     .contenido-valores .image-valores {
         width: 100%;
+        padding: 0 5% 0 5%;
     }
     .contenido-valores .valores {
         margin: 3% 0 0 10%;
         color: white;
         width: 100%;
+        padding: 0 20% 0 5%;
     }
     .contenido-valores .valores h2 {
         text-align: center;
