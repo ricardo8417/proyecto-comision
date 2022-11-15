@@ -304,26 +304,33 @@ form legend {
 /*Mision*/
 
 .contenido-mision {
-    margin-top: 20%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
 }
 
 .contenido-mision .Mision {
-    margin: 35px 10% 0 0;
-    text-align: justify;
+    margin: 5% 10% 0 0;
     color: white;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    width: 50%;
 }
 
 .contenido-mision .Mision h1 {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+.contenido-mision .Mision p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.contenido-mision .image-mision {
+    width: 50%;
 }
 
 .contenido-mision .image-mision img {
-    width: 600px;
+    width: 100%;
 }
 
 
@@ -332,23 +339,32 @@ form legend {
 .contenido-vision {
     margin-top: 20%;
     display: flex;
-    justify-content: space-around;
-}
-
-.contenido-vision .image-vision img {
-    width: 600px;
+    flex-direction: row;
 }
 
 .contenido-vision .vision {
-    margin: 5px 0 0 5%;
-    text-align: justify;
+    margin: 1% 0 0 8%;
     color: white;
-    font-size: 20px;
+    width: 50%;
 }
 
 .contenido-vision .vision h2 {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+.contenido-vision .vision p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.contenido-vision .image-vision {
+    width: 50%;
+}
+
+.contenido-vision .image-vision img {
+    width: 100%;
 }
 
 
@@ -357,23 +373,33 @@ form legend {
 .contenido-objetivogeneral {
     margin-top: 20%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
 }
 
 .contenido-objetivogeneral .objetivo-general {
-    margin: 50px 10% 0 0;
-    text-align: justify;
+    margin: 3% 10% 0 0;
     color: white;
-    font-size: 20px;
+    width: 50%;
 }
 
 .contenido-objetivogeneral .objetivo-general h2 {
     text-align: center;
     margin-bottom: 15px;
+    font-size: 22px;
+    margin-top: 10%;
+}
+
+.contenido-objetivogeneral .objetivo-general p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.contenido-objetivogeneral .image-objgeneral {
+    width: 50%;
 }
 
 .contenido-objetivogeneral .image-objgeneral img {
-    width: 600px;
+    width: 100%;
 }
 
 
@@ -382,28 +408,34 @@ form legend {
 .contenido-valores {
     margin-top: 20%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
 }
 
 .contenido-valores .image-valores img {
-    width: 600px;
+    width: 100%;
+}
+
+.contenido-valores .image-valores {
+    width: 50%;
 }
 
 .contenido-valores .valores {
-    margin: 85px 0 0 5%;
-    text-align: justify;
+    margin: 3% 0 0 10%;
     color: white;
-    font-size: 20px;
+    width: 50%;
 }
 
 .contenido-valores .valores h2 {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 5%;
+    font-size: 20px;
 }
 
 .contenido-valores .valores ol {
     text-align: center;
     list-style: square inside;
+    font-size: 18px;
 }
 
 
@@ -528,6 +560,9 @@ form legend {
         width: 100%;
         margin: 2% 0 0 0;
     }
+    main {
+        margin-top: 5%;
+    }
     /*Imagen portada*/
     .portada img {
         display: none;
@@ -597,43 +632,111 @@ form legend {
         height: auto;
     }
     /*Modulo Quienes Somos*/
-    .contenido-mision,
-    .contenido-vision,
-    .contenido-objetivogeneral,
-    .contenido-valores {
-        margin-top: 10%;
-        display: inline;
+    /*Mision*/
+    .contenido-mision {
+        display: flex;
+        flex-direction: column;
     }
-    .contenido-mision .Mision,
-    .contenido-vision .vision,
-    .contenido-objetivogeneral .objetivo-general,
-    .contenido-valores .valores {
-        margin: 10% 0 0 0;
-        padding: 0 5% 0 5%;
-        text-align: justify;
+    .contenido-mision .Mision {
+        /* margin: 5% 10% 0 0; */
         color: white;
-        font-size: 18px;
-        font-family: 'Roboto', sans-serif;
+        width: 50%;
     }
-    .contenido-mision .Mision h1,
-    .contenido-vision .vision h2,
-    .contenido-objetivogeneral .objetivo-general h2,
-    .contenido-valores .valores h2 {
+    .contenido-mision .Mision h1 {
         text-align: center;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
+        font-size: 20px;
     }
-    .contenido-mision .image-mision img,
-    .contenido-vision .image-vision img,
-    .contenido-objetivogeneral .image-objgeneral img,
+    .contenido-mision .Mision p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .contenido-mision .image-mision {
+        width: 100%;
+    }
+    .contenido-mision .image-mision img {
+        width: 100%;
+    }
+    /*Vision*/
+    .contenido-vision {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenido-vision .vision {
+        margin: 1% 0 0 8%;
+        color: white;
+        width: 100%;
+    }
+    .contenido-vision .vision h2 {
+        text-align: center;
+        margin-bottom: 5%;
+        font-size: 20px;
+    }
+    .contenido-vision .vision p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .contenido-vision .image-vision {
+        width: 100%;
+    }
+    .contenido-vision .image-vision img {
+        width: 100%;
+    }
+    /*Objetivo General*/
+    .contenido-objetivogeneral {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenido-objetivogeneral .objetivo-general {
+        margin: 3% 10% 0 0;
+        color: white;
+        width: 100%;
+    }
+    .contenido-objetivogeneral .objetivo-general h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 22px;
+        margin-top: 10%;
+    }
+    .contenido-objetivogeneral .objetivo-general p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .contenido-objetivogeneral .image-objgeneral {
+        width: 100%;
+    }
+    .contenido-objetivogeneral .image-objgeneral img {
+        width: 100%;
+    }
+    /*Valores Institucionales*/
+    .contenido-valores {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
     .contenido-valores .image-valores img {
         width: 100%;
-        margin: 10% 0 0 0;
-        padding: 0 5% 0 5%;
+    }
+    .contenido-valores .image-valores {
+        width: 100%;
+    }
+    .contenido-valores .valores {
+        margin: 3% 0 0 10%;
+        color: white;
+        width: 100%;
+    }
+    .contenido-valores .valores h2 {
+        text-align: center;
+        margin-bottom: 5%;
+        font-size: 20px;
     }
     .contenido-valores .valores ol {
         text-align: center;
         list-style: square inside;
-        padding: 0 5% 0 5%;
+        font-size: 18px;
     }
 }
 
@@ -711,43 +814,111 @@ form legend {
         height: auto;
     }
     /*Modulo Quienes Somos*/
-    .contenido-mision,
-    .contenido-vision,
-    .contenido-objetivogeneral,
-    .contenido-valores {
-        margin-top: 10%;
-        display: inline;
+    /*Mision*/
+    .contenido-mision {
+        display: flex;
+        flex-direction: column;
     }
-    .contenido-mision .Mision,
-    .contenido-vision .vision,
-    .contenido-objetivogeneral .objetivo-general,
-    .contenido-valores .valores {
-        margin: 10% 0 0 0;
-        padding: 0 5% 0 5%;
-        text-align: justify;
+    .contenido-mision .Mision {
+        /* margin: 5% 10% 0 0; */
         color: white;
-        font-size: 18px;
-        font-family: 'Roboto', sans-serif;
+        width: 50%;
     }
-    .contenido-mision .Mision h1,
-    .contenido-vision .vision h2,
-    .contenido-objetivogeneral .objetivo-general h2,
-    .contenido-valores .valores h2 {
+    .contenido-mision .Mision h1 {
         text-align: center;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
+        font-size: 20px;
     }
-    .contenido-mision .image-mision img,
-    .contenido-vision .image-vision img,
-    .contenido-objetivogeneral .image-objgeneral img,
+    .contenido-mision .Mision p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .contenido-mision .image-mision {
+        width: 100%;
+    }
+    .contenido-mision .image-mision img {
+        width: 100%;
+    }
+    /*Vision*/
+    .contenido-vision {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenido-vision .vision {
+        margin: 1% 0 0 8%;
+        color: white;
+        width: 100%;
+    }
+    .contenido-vision .vision h2 {
+        text-align: center;
+        margin-bottom: 5%;
+        font-size: 20px;
+    }
+    .contenido-vision .vision p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .contenido-vision .image-vision {
+        width: 100%;
+    }
+    .contenido-vision .image-vision img {
+        width: 100%;
+    }
+    /*Objetivo General*/
+    .contenido-objetivogeneral {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenido-objetivogeneral .objetivo-general {
+        margin: 3% 10% 0 0;
+        color: white;
+        width: 100%;
+    }
+    .contenido-objetivogeneral .objetivo-general h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 22px;
+        margin-top: 10%;
+    }
+    .contenido-objetivogeneral .objetivo-general p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .contenido-objetivogeneral .image-objgeneral {
+        width: 100%;
+    }
+    .contenido-objetivogeneral .image-objgeneral img {
+        width: 100%;
+    }
+    /*Valores Institucionales*/
+    .contenido-valores {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
     .contenido-valores .image-valores img {
         width: 100%;
-        margin: 10% 0 0 0;
-        padding: 0 5% 0 5%;
+    }
+    .contenido-valores .image-valores {
+        width: 100%;
+    }
+    .contenido-valores .valores {
+        margin: 3% 0 0 10%;
+        color: white;
+        width: 100%;
+    }
+    .contenido-valores .valores h2 {
+        text-align: center;
+        margin-bottom: 5%;
+        font-size: 20px;
     }
     .contenido-valores .valores ol {
         text-align: center;
         list-style: square inside;
-        padding: 0 5% 0 5%;
+        font-size: 18px;
     }
 }
 
@@ -763,8 +934,14 @@ form legend {
     /*Contenido*/
     main .contenido .info {
         width: 100%;
-        margin: 2% 5% 0 0;
+        margin: 2% 10% 0 0;
         padding: 0 5% 0 5%;
+    }
+    main .contenido .info h1 {
+        font-size: 20px;
+    }
+    main .contenido .info p {
+        font-size: 17px;
     }
     main .contenido {
         margin-bottom: 20%;
@@ -778,12 +955,15 @@ form legend {
         width: 100%;
         max-width: 640px;
     }
+    .container .titulo-servicio h2 {
+        font-size: 20px;
+    }
     .video .titulo-video {
         width: 100%;
         text-align: center;
     }
     .video .titulo-video h2 {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: bold;
         color: white;
         text-align: center;
@@ -824,42 +1004,113 @@ form legend {
         height: auto;
     }
     /*Modulo Quienes Somos*/
-    .contenido-mision,
-    .contenido-vision,
-    .contenido-objetivogeneral,
-    .contenido-valores {
-        margin-top: 10%;
-        display: inline;
+    /*Mision*/
+    .contenido-mision {
+        display: flex;
+        flex-direction: column;
     }
-    .contenido-mision .Mision,
-    .contenido-vision .vision,
-    .contenido-objetivogeneral .objetivo-general,
-    .contenido-valores .valores {
-        margin: 10% 0 0 0;
-        padding: 0 5% 0 5%;
-        text-align: justify;
+    .contenido-mision .Mision {
+        /* margin: 5% 0 0 0; */
         color: white;
-        font-size: 18px;
-        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        padding: 0 5% 0 5%;
     }
-    .contenido-mision .Mision h1,
-    .contenido-vision .vision h2,
-    .contenido-objetivogeneral .objetivo-general h2,
-    .contenido-valores .valores h2 {
+    .contenido-mision .Mision h1 {
         text-align: center;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
+        font-size: 20px;
     }
-    .contenido-mision .image-mision img,
-    .contenido-vision .image-vision img,
-    .contenido-objetivogeneral .image-objgeneral img,
+    .contenido-mision .Mision p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .contenido-mision .image-mision {
+        width: 100%;
+        padding: 0 5% 0 5%;
+    }
+    .contenido-mision .image-mision img {
+        width: 100%;
+    }
+    /*Vision*/
+    .contenido-vision {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenido-vision .vision {
+        /* margin: 1% 0 0 8%; */
+        color: white;
+        width: 80%;
+        /* padding: 0 5% 0 5%; */
+    }
+    .contenido-vision .vision h2 {
+        text-align: center;
+        margin-bottom: 5%;
+        font-size: 20px;
+    }
+    .contenido-vision .vision p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .contenido-vision .image-vision {
+        width: 100%;
+    }
+    .contenido-vision .image-vision img {
+        width: 100%;
+    }
+    /*Objetivo General*/
+    .contenido-objetivogeneral {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contenido-objetivogeneral .objetivo-general {
+        margin: 3% 10% 0 0;
+        color: white;
+        width: 100%;
+    }
+    .contenido-objetivogeneral .objetivo-general h2 {
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 22px;
+        margin-top: 10%;
+    }
+    .contenido-objetivogeneral .objetivo-general p {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .contenido-objetivogeneral .image-objgeneral {
+        width: 100%;
+    }
+    .contenido-objetivogeneral .image-objgeneral img {
+        width: 100%;
+    }
+    /*Valores Institucionales*/
+    .contenido-valores {
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
     .contenido-valores .image-valores img {
         width: 100%;
-        margin: 10% 0 0 0;
-        padding: 0 5% 0 5%;
+    }
+    .contenido-valores .image-valores {
+        width: 100%;
+    }
+    .contenido-valores .valores {
+        margin: 3% 0 0 10%;
+        color: white;
+        width: 100%;
+    }
+    .contenido-valores .valores h2 {
+        text-align: center;
+        margin-bottom: 5%;
+        font-size: 20px;
     }
     .contenido-valores .valores ol {
         text-align: center;
         list-style: square inside;
-        padding: 0 5% 0 5%;
+        font-size: 18px;
     }
 }
