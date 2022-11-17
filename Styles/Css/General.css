@@ -500,9 +500,8 @@ form legend {
 
 /*Modulo Productos*/
 
-#Contenido-productos {
-    color: white;
-    margin-top: 150px;
+#contenido-productos {
+    margin-top: 10%;
 }
 
 #Contenido-productos h1 {
