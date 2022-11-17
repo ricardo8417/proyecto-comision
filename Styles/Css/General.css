@@ -786,10 +786,18 @@ form legend {
         margin-bottom: 10%;
         overflow: hidden;
         margin: 0 5% 5% 5%;
+        border-radius: 5%;
+    }
+    #Contenido-sevicios .servicios .servicio1 .img-servicio {
+        border-radius: 10%;
+        width: 100%;
     }
     #Contenido-sevicios .servicios .servicio1 .img-servicio:hover {
         -webkit-transform: scale(0.9);
         transform: scale(0.9);
+    }
+    #Contenido-sevicios .servicios .servicio1 .carrito-compras:hover {
+        background: #ff9900;
     }
 }
 
@@ -1008,10 +1016,18 @@ form legend {
         margin-bottom: 10%;
         overflow: hidden;
         margin: 0 5% 5% 5%;
+        border-radius: 5%;
+    }
+    #Contenido-sevicios .servicios .servicio1 .img-servicio {
+        border-radius: 10%;
+        width: 100%;
     }
     #Contenido-sevicios .servicios .servicio1 .img-servicio:hover {
         -webkit-transform: scale(0.9);
         transform: scale(0.9);
+    }
+    #Contenido-sevicios .servicios .servicio1 .carrito-compras:hover {
+        background: #ff9900;
     }
 }
 
@@ -1239,9 +1255,17 @@ form legend {
         margin-bottom: 10%;
         overflow: hidden;
         margin: 0 5% 5% 5%;
+        border-radius: 5%;
+    }
+    #Contenido-sevicios .servicios .servicio1 .img-servicio {
+        border-radius: 10%;
+        width: 100%;
     }
     #Contenido-sevicios .servicios .servicio1 .img-servicio:hover {
         -webkit-transform: scale(0.9);
         transform: scale(0.9);
+    }
+    #Contenido-sevicios .servicios .servicio1 .carrito-compras:hover {
+        background: #ff9900;
     }
 }
