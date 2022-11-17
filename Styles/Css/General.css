@@ -386,7 +386,7 @@ form legend {
 .contenido-objetivogeneral .objetivo-general h2 {
     text-align: center;
     margin-bottom: 15px;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 10%;
 }
 
@@ -410,15 +410,14 @@ form legend {
     margin-top: 20%;
     display: flex;
     flex-direction: row;
-    width: 100%;
-}
-
-.contenido-valores .image-valores img {
-    width: 100%;
 }
 
 .contenido-valores .image-valores {
     width: 50%;
+}
+
+.contenido-valores .image-valores img {
+    width: 100%;
 }
 
 .contenido-valores .valores {
@@ -444,11 +443,13 @@ form legend {
 
 #Contenido-sevicios {
     margin-top: 150px;
+    display: grid;
+    grid-row: 2;
+    grid-column: 1fr 1fr;
 }
 
 #Contenido-sevicios .servicios {
     color: white;
-    display: inline-block;
 }
 
 #Contenido-sevicios .servicios p {
@@ -557,14 +558,14 @@ form legend {
 
 @media (max-width: 576px) {
     /* max = hasta... */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     body {
         width: 100%;
         /* margin: 2% 0 0 0; */
-        margin: auto;
-    }
-    main {
-        margin: auto;
-        ;
     }
     /*Imagen portada*/
     .portada img {
@@ -638,16 +639,15 @@ form legend {
     /*Modulo Quienes Somos*/
     /*Mision*/
     .contenido-mision {
+        margin-top: 10%;
         display: flex;
         flex-direction: column;
-        margin-top: 10%;
     }
     .contenido-mision .Mision {
-        /* margin: 5% 0 0 0; */
+        margin: 5% 0 0 0;
         color: white;
         width: 100%;
         padding: 0 5% 0 5%;
-        margin: auto;
     }
     .contenido-mision .Mision h1 {
         text-align: center;
@@ -661,6 +661,7 @@ form legend {
     .contenido-mision .image-mision {
         width: 100%;
         padding: 0 5% 0 5%;
+        margin-top: 8%;
         margin: auto;
     }
     .contenido-mision .image-mision img {
@@ -669,13 +670,14 @@ form legend {
     /*Vision*/
     .contenido-vision {
         margin-top: 10%;
+        margin: auto;
         display: flex;
         flex-direction: column;
     }
     .contenido-vision .vision {
-        margin: 5% 0 0 8%;
+        margin: 8% 0 0 0;
         color: white;
-        width: 80%;
+        width: 100%;
         padding: 0 5% 0 5%;
     }
     .contenido-vision .vision h2 {
@@ -690,7 +692,7 @@ form legend {
     .contenido-vision .image-vision {
         width: 100%;
         padding: 0 5% 0 5%;
-        margin: auto;
+        margin-top: 8%;
     }
     .contenido-vision .image-vision img {
         width: 100%;
@@ -698,20 +700,20 @@ form legend {
     /*Objetivo General*/
     .contenido-objetivogeneral {
         margin-top: 10%;
+        margin: auto;
         display: flex;
         flex-direction: column;
     }
     .contenido-objetivogeneral .objetivo-general {
-        margin: 5% 10% 0 0;
+        margin-top: 8%;
         color: white;
         width: 100%;
         padding: 0 5% 0 5%;
     }
     .contenido-objetivogeneral .objetivo-general h2 {
         text-align: center;
-        margin-bottom: 15px;
+        /* margin-bottom: 15px; */
         font-size: 20px;
-        margin-top: 10%;
     }
     .contenido-objetivogeneral .objetivo-general p {
         font-size: 18px;
@@ -728,9 +730,9 @@ form legend {
     /*Valores Institucionales*/
     .contenido-valores {
         margin-top: 10%;
+        margin: auto;
         display: flex;
         flex-direction: column;
-        width: 100%;
     }
     .contenido-valores .image-valores img {
         width: 100%;
@@ -738,10 +740,10 @@ form legend {
     .contenido-valores .image-valores {
         width: 100%;
         padding: 0 5% 0 5%;
-        margin: auto;
+        margin-top: 8%;
     }
     .contenido-valores .valores {
-        margin: 5% 0 0 10%;
+        margin-top: 8%;
         color: white;
         width: 100%;
         padding: 0 20% 0 5%;
@@ -759,20 +761,20 @@ form legend {
 }
 
 @media (max-width: 768px) {
-    /* min = desde... */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     body {
         width: 100%;
         /* margin: 2% 0 0 0; */
-        margin: auto;
     }
     /*Imagen portada*/
     .portada img {
         display: none;
     }
     /*Contenido*/
-    main {
-        margin: auto;
-    }
     main .contenido .info {
         width: 100%;
         margin: 2% 10% 0 0;
@@ -839,16 +841,15 @@ form legend {
     /*Modulo quienes somos*/
     /*Mision*/
     .contenido-mision {
+        margin-top: 10%;
         display: flex;
         flex-direction: column;
-        margin-top: 10%;
     }
     .contenido-mision .Mision {
-        /* margin: 5% 0 0 0; */
+        margin: 5% 0 0 0;
         color: white;
         width: 100%;
         padding: 0 5% 0 5%;
-        margin: auto;
     }
     .contenido-mision .Mision h1 {
         text-align: center;
@@ -862,6 +863,7 @@ form legend {
     .contenido-mision .image-mision {
         width: 100%;
         padding: 0 5% 0 5%;
+        margin-top: 8%;
         margin: auto;
     }
     .contenido-mision .image-mision img {
@@ -870,13 +872,14 @@ form legend {
     /*Vision*/
     .contenido-vision {
         margin-top: 10%;
+        margin: auto;
         display: flex;
         flex-direction: column;
     }
     .contenido-vision .vision {
-        margin: 5% 0 0 8%;
+        margin: 8% 0 0 0;
         color: white;
-        width: 80%;
+        width: 100%;
         padding: 0 5% 0 5%;
     }
     .contenido-vision .vision h2 {
@@ -891,7 +894,7 @@ form legend {
     .contenido-vision .image-vision {
         width: 100%;
         padding: 0 5% 0 5%;
-        margin: auto;
+        margin-top: 8%;
     }
     .contenido-vision .image-vision img {
         width: 100%;
@@ -899,20 +902,20 @@ form legend {
     /*Objetivo General*/
     .contenido-objetivogeneral {
         margin-top: 10%;
+        margin: auto;
         display: flex;
         flex-direction: column;
     }
     .contenido-objetivogeneral .objetivo-general {
-        margin: 5% 10% 0 0;
+        margin-top: 8%;
         color: white;
         width: 100%;
         padding: 0 5% 0 5%;
     }
     .contenido-objetivogeneral .objetivo-general h2 {
         text-align: center;
-        margin-bottom: 15px;
-        font-size: 22px;
-        margin-top: 10%;
+        /* margin-bottom: 15px; */
+        font-size: 20px;
     }
     .contenido-objetivogeneral .objetivo-general p {
         font-size: 18px;
@@ -929,9 +932,9 @@ form legend {
     /*Valores Institucionales*/
     .contenido-valores {
         margin-top: 10%;
+        margin: auto;
         display: flex;
         flex-direction: column;
-        width: 100%;
     }
     .contenido-valores .image-valores img {
         width: 100%;
@@ -939,10 +942,10 @@ form legend {
     .contenido-valores .image-valores {
         width: 100%;
         padding: 0 5% 0 5%;
-        margin: auto;
+        margin-top: 8%;
     }
     .contenido-valores .valores {
-        margin: 5% 0 0 10%;
+        margin-top: 8%;
         color: white;
         width: 100%;
         padding: 0 20% 0 5%;
@@ -960,19 +963,20 @@ form legend {
 }
 
 @media (max-width: 990px) {
-    /*Imagen portada*/
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /*Cuerpo de la página*/
     body {
         width: 100%;
-        /* margin: 2% 0 0 0; */
         margin: auto;
     }
     .portada img {
         display: none;
     }
     /*Contenido*/
-    main {
-        margin: auto;
-    }
     main .contenido .info {
         width: 100%;
         margin: 2% 10% 0 0;
@@ -1048,16 +1052,15 @@ form legend {
     /*Modulo Quienes Somos*/
     /*Mision*/
     .contenido-mision {
+        margin-top: 10%;
         display: flex;
         flex-direction: column;
-        margin-top: 10%;
     }
     .contenido-mision .Mision {
-        /* margin: 5% 0 0 0; */
+        margin: 5% 0 0 0;
         color: white;
         width: 100%;
         padding: 0 5% 0 5%;
-        margin: auto;
     }
     .contenido-mision .Mision h1 {
         text-align: center;
@@ -1071,6 +1074,7 @@ form legend {
     .contenido-mision .image-mision {
         width: 100%;
         padding: 0 5% 0 5%;
+        margin-top: 8%;
         margin: auto;
     }
     .contenido-mision .image-mision img {
@@ -1079,13 +1083,14 @@ form legend {
     /*Vision*/
     .contenido-vision {
         margin-top: 10%;
+        margin: auto;
         display: flex;
         flex-direction: column;
     }
     .contenido-vision .vision {
-        margin: 5% 0 0 8%;
+        margin: 8% 0 0 0;
         color: white;
-        width: 80%;
+        width: 100%;
         padding: 0 5% 0 5%;
     }
     .contenido-vision .vision h2 {
@@ -1100,7 +1105,7 @@ form legend {
     .contenido-vision .image-vision {
         width: 100%;
         padding: 0 5% 0 5%;
-        margin: auto;
+        margin-top: 8%;
     }
     .contenido-vision .image-vision img {
         width: 100%;
@@ -1108,20 +1113,20 @@ form legend {
     /*Objetivo General*/
     .contenido-objetivogeneral {
         margin-top: 10%;
+        margin: auto;
         display: flex;
         flex-direction: column;
     }
     .contenido-objetivogeneral .objetivo-general {
-        margin: 5% 10% 0 0;
+        margin-top: 8%;
         color: white;
         width: 100%;
         padding: 0 5% 0 5%;
     }
     .contenido-objetivogeneral .objetivo-general h2 {
         text-align: center;
-        margin-bottom: 15px;
-        font-size: 22px;
-        margin-top: 10%;
+        /* margin-bottom: 15px; */
+        font-size: 20px;
     }
     .contenido-objetivogeneral .objetivo-general p {
         font-size: 18px;
@@ -1138,9 +1143,9 @@ form legend {
     /*Valores Institucionales*/
     .contenido-valores {
         margin-top: 10%;
+        margin: auto;
         display: flex;
         flex-direction: column;
-        width: 100%;
     }
     .contenido-valores .image-valores img {
         width: 100%;
@@ -1148,10 +1153,10 @@ form legend {
     .contenido-valores .image-valores {
         width: 100%;
         padding: 0 5% 0 5%;
-        margin: auto;
+        margin-top: 8%;
     }
     .contenido-valores .valores {
-        margin: 5% 0 0 10%;
+        margin-top: 8%;
         color: white;
         width: 100%;
         padding: 0 20% 0 5%;
