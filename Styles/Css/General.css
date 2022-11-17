@@ -296,6 +296,7 @@ form fieldset .asunto-enviar:hover {
 form legend {
     font-size: 20px;
     color: white;
+    margin-bottom: 10%;
 }
 
 
