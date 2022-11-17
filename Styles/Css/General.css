@@ -464,6 +464,7 @@ form legend {
 
 #Contenido-sevicios .servicios .servicio1 .img-servicio {
     width: 100%;
+    border-radius: 10%;
 }
 
 #Contenido-sevicios .servicios .servicio1 .img-servicio:hover {
@@ -475,6 +476,7 @@ form legend {
     border: 2px solid #A2C7E5;
     margin-bottom: 10%;
     overflow: hidden;
+    border-radius: 5%;
 }
 
 #Contenido-sevicios .servicios .servicio1 .boton-centrado {
@@ -489,6 +491,10 @@ form legend {
     background: rgb(37, 150, 190);
     border: 1px solid rgb(37, 150, 190);
     font-size: 18px;
+}
+
+#Contenido-sevicios .servicios .servicio1 .carrito-compras:hover {
+    background: #ff9900;
 }
 
 
