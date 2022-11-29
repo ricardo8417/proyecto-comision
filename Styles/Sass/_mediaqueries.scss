@@ -34,7 +34,14 @@
             }
         }
     }
-    ;
+    .container {
+        .row {
+            padding: 0 5% 0 5%;
+            .card__estiloPropio {
+                width: 100%;
+            }
+        }
+    }
     /*Video youtube*/
     .video {
         .titulo-video {
@@ -306,6 +313,14 @@
                     width: 100%;
                     max-width: 640px;
                 }
+            }
+        }
+    }
+    .container {
+        .row {
+            padding: 0 5% 0 5%;
+            .card__estiloPropio {
+                width: 100%;
             }
         }
     }
@@ -589,6 +604,12 @@
         .titulo-servicio {
             h2 {
                 font-size: 20px;
+            }
+        }
+        .row {
+            padding: 0 5% 0 5%;
+            .card__estiloPropio {
+                width: 100%;
             }
         }
     }
