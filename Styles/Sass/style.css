@@ -1167,6 +1167,7 @@ body {
   }
   form fieldset .selector {
     width: 100%;
+    background-color: white;
   }
   form fieldset .asunto-enviar {
     width: 100%;
@@ -1174,5 +1175,8 @@ body {
   form fieldset .asunto-enviar:hover {
     background: blue;
     color: white;
+  }
+  form fieldset .asunto-area {
+    background-color: white;
   }
 }/*# sourceMappingURL=style.css.map */
