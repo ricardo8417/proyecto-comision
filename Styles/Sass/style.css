@@ -99,7 +99,7 @@ main .contenido .img-main img {
   margin-top: 20%;
 }
 .container .row .card__estiloPropio {
-  width: 100%;
+  width: 30%;
 }
 
 /*Var colores*/
@@ -382,7 +382,7 @@ form legend {
   font-size: 20px;
 }
 .container .row .style-card {
-  width: 18rem;
+  width: 30%;
 }
 
 /*Var colores*/
@@ -618,6 +618,10 @@ body {
   }
   .Contenido-sevicios .servicios .servicio1 .carrito-compras:hover {
     background: #ff9900;
+  }
+  /*Estilos Mediaquerie Productos*/
+  .container .row .style-card {
+    width: 100%;
   }
   /*Estilos Responsive mobile contacto*/
   .mapa {
@@ -884,6 +888,10 @@ body {
   }
   .contenido-sevicios .servicios .servicio1 .carrito-compras:hover {
     background: #ff9900;
+  }
+  /*Estilos Mediaquerie Productos*/
+  .container .row .style-card {
+    width: 100%;
   }
   /*Estilos Responsive mobile contacto*/
   .mapa {
@@ -1159,6 +1167,11 @@ body {
   .contenido-sevicios .servicios .carrito-compras:hover {
     background: #ff9900;
   }
+  /*Estilos Mediaquerie Productos*/
+  .container .row .style-card {
+    width: 100%;
+  }
+  /*Estilos Mediaquerie Formularios*/
   .mapa {
     margin-top: 10%;
     display: flex;
