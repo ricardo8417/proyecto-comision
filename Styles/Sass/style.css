@@ -1163,6 +1163,7 @@ body {
   }
   form fieldset .input {
     width: 100%;
+    background-color: white;
   }
   form fieldset .selector {
     width: 100%;
