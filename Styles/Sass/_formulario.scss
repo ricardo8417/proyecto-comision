@@ -1,0 +1,67 @@
+@import 'variables';
+
+/*Estilos al Modulo del Formulario*/
+
+.mapa {
+    margin-top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    iframe {
+        width: 600px;
+        height: 450px;
+        border: 0;
+    }
+}
+
+form {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    fieldset {
+        padding: 50px 17px;
+        font-weight: bold;
+        background: $bg__Fgradient;
+        border-radius: 10px;
+        width: 800px;
+        text-align: center;
+        .label {
+            margin: 0px 10px 15px 0px;
+            font-size: 20px;
+            color: $texto__link;
+        }
+        .input {
+            margin: 0px 0px 10px 0px;
+            width: 25%;
+            font-size: 20px;
+        }
+        .selector {
+            margin: 0px 0px 10px 0px;
+            width: 25%;
+            font-size: 20px;
+            color: $texto__Cafe;
+        }
+        .asunto-area {
+            margin: 15px 0px 10px 0px;
+            font-size: 20px;
+        }
+        .asunto-enviar {
+            font-size: 25px;
+            width: 25%;
+            border-radius: 20px;
+            font-weight: bold;
+            color: $texto__linkHover;
+            margin-top: 15px;
+            &:hover {
+                background: $texto__linkHover;
+                color: $texto__link;
+            }
+        }
+    }
+    legend {
+        font-size: 20px;
+        color: $texto__link;
+        margin-bottom: 10%;
+    }
+}

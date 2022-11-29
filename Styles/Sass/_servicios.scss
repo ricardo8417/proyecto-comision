@@ -1,0 +1,50 @@
+@import 'variables';
+
+/*Estilos para el Modulo de Servicios*/
+
+.contenido-sevicios {
+    margin-top: 10%;
+    .servicios {
+        color: $texto__link;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 10%;
+        justify-items: center;
+        align-items: center;
+        p {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 20px;
+        }
+        .servicio1 {
+            border: 2px solid #A2C7E5;
+            margin-bottom: 10%;
+            overflow: hidden;
+            border-radius: 5%;
+            .img-servicio {
+                width: 100%;
+                border-radius: 10%;
+                &:hover {
+                    -webkit-transform: scale(0.9);
+                    transform: scale(0.9);
+                }
+            }
+            .boton-centrado {
+                display: flex;
+                justify-content: center;
+            }
+            .carrito-compras {
+                border-radius: 10px;
+                margin: auto;
+                color: $texto__link;
+                background: $bg__Fcarrito;
+                border: 1px solid $bg__Fcarrito;
+                font-size: 18px;
+                &:hover {
+                    background: $bg__Fheader;
+                }
+            }
+        }
+    }
+}

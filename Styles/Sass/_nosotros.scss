@@ -1,0 +1,122 @@
+@import 'variables';
+
+/*Estilos para el Modulo Nosotros*/
+
+.estatico {
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+.estatico__p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.contenido__Estatico {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*Estilos para Mision*/
+
+.contenido-mision {
+    display: flex;
+    flex-direction: row;
+    .Mision {
+        margin: 5% 10% 0 0;
+        color: $texto__link;
+        width: 50%;
+        h1 {
+            @extend .estatico;
+        }
+        p {
+            @extend .estatico__p;
+        }
+    }
+    .image-mision {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+/*Estilos para Vision*/
+
+.contenido-vision {
+    @extend .contenido__Estatico;
+    .vision {
+        margin: 1% 0 0 8%;
+        color: $texto__link;
+        width: 50%;
+        h2 {
+            @extend .estatico;
+        }
+        p {
+            @extend .estatico__p;
+        }
+    }
+    .image-vision {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+/*Estilos Objetivo General*/
+
+.contenido-objetivogeneral {
+    @extend .contenido__Estatico;
+    .objetivo-general {
+        margin: 3% 10% 0 0;
+        color: $texto__link;
+        width: 50%;
+        h2 {
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 20px;
+            margin-top: 10%;
+        }
+        p {
+            @extend .estatico__p;
+        }
+    }
+    .image-objgeneral {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+/*Estilos Valores*/
+
+.contenido-valores {
+    @extend .contenido__Estatico;
+    .image-valores {
+        width: 50%;
+        img {
+            width: 100%;
+        }
+    }
+    .valores {
+        margin: 3% 0 0 10%;
+        color: $texto__link;
+        width: 50%;
+        h2 {
+            @extend .estatico;
+        }
+        ol {
+            text-align: center;
+            list-style: square inside;
+            font-size: 18px;
+        }
+    }
+}

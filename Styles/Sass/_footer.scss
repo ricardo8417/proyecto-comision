@@ -1,0 +1,21 @@
+@import 'variables';
+
+/*Estilos para el Footer*/
+
+footer {
+    margin-top: 300px;
+    border: 1px solid $texto__Negro;
+    background: $texto__Negro;
+    width: 100%;
+    color: $texto__link;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 17px;
+    border-radius: 10px;
+    p {
+        font-size: 18px;
+    }
+    img {
+        width: 30px;
+    }
+}

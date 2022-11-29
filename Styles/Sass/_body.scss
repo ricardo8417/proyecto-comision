@@ -1,0 +1,14 @@
+@import 'variables';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    background-color: $bg__Fbody;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 10% 0 10%;
+}

@@ -1,0 +1,33 @@
+@import 'variables';
+
+/*Main*/
+
+main {
+    margin-top: 10%;
+    .contenido {
+        margin: 10% 0 20% 0;
+        display: flex;
+        flex-direction: row;
+        .info {
+            width: 50%;
+            margin: 2% 10% 0 0;
+            h1 {
+                text-align: center;
+                font-weight: bold;
+                color: $texto__link;
+            }
+            p {
+                margin-top: 15px;
+                text-align: justify;
+                font-size: 18px;
+                color: $texto__link;
+            }
+        }
+        .img-main {
+            width: 50%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

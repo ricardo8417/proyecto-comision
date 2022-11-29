@@ -1,0 +1,67 @@
+@import 'variables';
+
+/*Portada*/
+
+.img__portada {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+
+/*Utilizando extend*/
+
+.portada {
+    img {
+        @extend .img__portada;
+    }
+}
+
+
+/*maps de header*/
+
+$colores:( bggradiant: linear-gradient(#003366, #0080ff, #66b3ff), );
+$estilos:( border: 2px solid #003366, radio: 10px, );
+
+/*Header*/
+
+header {
+    background: map-get($colores, bggradiant);
+    border: map-get($estilos, border);
+    border-radius: map-get($estilos, radio);
+    .bg-menu {
+        .container {
+            .img-logo {
+                width: 100px;
+                margin-bottom: 5px;
+                border-radius: 10px;
+                opacity: 5;
+                filter: brightness(1.1);
+                mix-blend-mode: multiply;
+            }
+            .menu {
+                ul {
+                    li {
+                        a {
+                            color: $texto__link;
+                            &:hover {
+                                color: $texto__linkHover;
+                            }
+                        }
+                        .bg-fondo {
+                            background: map-get($colores, bggradiant);
+                            a {
+                                &:hover {
+                                    background: $bg__Fheader;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+;

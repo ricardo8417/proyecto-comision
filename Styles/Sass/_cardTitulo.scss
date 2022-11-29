@@ -1,0 +1,16 @@
+@import 'variables';
+
+/*Titulo del Card*/
+
+.container {
+    .titulo-servicio {
+        h2 {
+            font-size: 30px;
+            font-weight: bold;
+            color: $texto__link;
+            text-align: center;
+            margin-bottom: 10%;
+            margin-top: 20%;
+        }
+    }
+}
