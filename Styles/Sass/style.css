@@ -180,13 +180,13 @@ form fieldset .label {
   color: white;
 }
 form fieldset .input {
-  margin: 0px 0px 10px 0px;
-  width: 25%;
+  margin: 0px 0px 10px 10px;
+  width: 50%;
   font-size: 20px;
 }
 form fieldset .selector {
-  margin: 0px 0px 10px 0px;
-  width: 25%;
+  margin: 0px 0px 10px 10px;
+  width: 50%;
   font-size: 20px;
   color: maroon;
 }
