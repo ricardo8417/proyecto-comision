@@ -390,11 +390,6 @@ form legend {
 /*Estilos Responsives*/
 @media (max-width: 576px) {
   /*Cuerpo de la página*/
-  html,
-body {
-    width: 100%;
-    padding: 0;
-  }
   /*Imagen portada*/
   .portada img {
     display: none;
@@ -663,11 +658,6 @@ body {
 }
 @media (max-width: 768px) {
   /*Cuerpo de la página*/
-  html,
-body {
-    width: 100%;
-    padding: 0;
-  }
   /*Imagen portada*/
   .portada img {
     display: none;
