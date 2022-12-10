@@ -9,43 +9,49 @@
 
 .contenido-productos {
     margin-top: 10%;
-    h1 {
-        text-align: center;
-    }
-    .linea {
-        border-top: 5px solid red;
-        height: 2px;
-        padding: 0;
-        margin: 20px 0 15% 0;
-    }
-    .productos {
-        display: inline-block;
-        .img-productos {
-            width: 500px;
-            height: 250px;
+    .container {
+        .titulo-producto {
+            h1 {
+                text-align: center;
+                font-size: 24px;
+                color: $texto__link;
+            }
         }
-        .ver-Productos {
-            text-decoration: none;
-            color: $texto__link;
-            font-size: 20px;
+        .linea {
+            border-top: 5px solid red;
+            height: 2px;
+            padding: 0;
+            margin: 20px 0 15% 0;
         }
-        .productos1 {
-            @extend .config;
-        }
-        .productos2 {
-            @extend .config;
-        }
-        .productos3 {
-            @extend .config;
-        }
-        .productos4 {
-            @extend .config;
-        }
-        .productos6 {
-            @extend .config;
-        }
-        .productos7 {
-            @extend .config;
+        .productos {
+            display: inline-block;
+            .img-productos {
+                width: 500px;
+                height: 250px;
+            }
+            .ver-Productos {
+                text-decoration: none;
+                color: $texto__link;
+                font-size: 20px;
+            }
+            .productos1 {
+                @extend .config;
+            }
+            .productos2 {
+                @extend .config;
+            }
+            .productos3 {
+                @extend .config;
+            }
+            .productos4 {
+                @extend .config;
+            }
+            .productos6 {
+                @extend .config;
+            }
+            .productos7 {
+                @extend .config;
+            }
         }
     }
 }
