@@ -29,7 +29,6 @@ header {
   height: 150px;
   display: flex;
   align-items: center;
-  font-size: 14px;
 }
 header .bg-menu .container .img-logo {
   width: 100px;
